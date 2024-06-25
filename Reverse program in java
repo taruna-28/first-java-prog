@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class main {
+
+    public static void main(String[] args) {
+        int n, r;
+        Scanner ref = new Scanner (System.in);
+        System.out.print("Enter a number:");
+         r = ref.nextInt();
+         while (r>0)
+         {
+            n=r%10;
+            System.out.println("Reverse Number"+n);
+            n=n/10;
+
+         }
+         
+    }
+}
